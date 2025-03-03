@@ -1,0 +1,15 @@
+git add . 
+git commit -m "updating date"
+git commit --amend --date="2024-06-14 20:12:20"
+
+git push origin main
+
+
+
+echo "# bik" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bikalpashrestha/bik.git
+git push -u origin main
